@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #36393f;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+}
+
+.cursos {
+    display: flex;
+}
+
+.curso1 {
+    flex: 1;
+    text-align: center;
+    border-right: 0.2em solid white;
+}
+
+.curso1 h1,
+.curso2 h1 {
+    font-size: 24px;
+    margin: 1em;
+}
+
+.curso1 p,
+.curso2 p {
+    margin: 2em;
+}
+
+.linkcurso1,
+.linkcurso2 {
+    background: linear-gradient(90deg, #5F5BCD, #F25710);
+    border: 2px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.6em;
+    text-decoration: none;
+}
+
+.linkcurso1:hover,
+.linkcurso2:hover {
+    background: linear-gradient(90deg, #F25710, #5F5BCD);
+}
+
+.curso2 {
+    flex: 1;
+    text-align: center;
+}
+
+.imagem-tripe {
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+}
